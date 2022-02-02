@@ -31,7 +31,6 @@ function cellClicked() {
 function checkWinner() {
     console.log("Checking for winner...");
     
-    
     checkRowColumn(0, 1, 2);
 
     checkRowColumn(3, 4, 5);
